@@ -3,7 +3,7 @@ kind: kubernetes
 application: potato-facts
 targets:
   staging:
-    account: my-cdaas-cluster
+    account: kind-matt-cluster-1
     namespace: potato-facts-staging
     strategy: rolling
   prod:
